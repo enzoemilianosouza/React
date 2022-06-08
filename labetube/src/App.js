@@ -1,6 +1,6 @@
 import Header from "./Components/Header";
 import ButtonMenu from "./Components/ButtonMenu";
-import CardVideo from "./Components/CardVideo";
+import { CardVideo } from "./Components/CardVideo";
 import Styled from "styled-components";
 
 const App = () => {

@@ -1,10 +1,12 @@
-const CardVideo = (props) => {
-  return (
-    <div className="box-pagina-principal" onClick={props.alertVideo}>
-      <img src={props.link} alt="" />
-      <h4>{props.titulo}</h4>
-    </div>
-  );
-};
+import React from "react";
 
-export default CardVideo;
+export class CardVideo extends React.Component {
+  render() {
+    return (
+      <div className="box-pagina-principal" onClick={this.props.alertVideo}>
+        <img src={this.props.link} alt="" />
+        <h4>{this.props.titulo}</h4>
+      </div>
+    );
+  }
+}
